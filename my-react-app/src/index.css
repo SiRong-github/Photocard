@@ -1,0 +1,48 @@
+:root {
+  --lightGrey: black;
+  --pink: #e6b9a6;
+  --darkGrey: #939185;
+  --blue: #2f3645;
+  --header-height: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.front,
+.back {
+  border: 0.1em solid rgb(237, 237, 237);
+  width: 8.8cm;
+  height: 10.7cm;
+  padding: 1em;
+  margin: 1em;
+}
+
+.front .front-photo {
+  width: 7.7cm;
+  height: 7.9cm;
+  display: block;
+  border: 0.1em solid rgb(237, 237, 237);
+  margin: auto;
+}
+
+.back .back-date {
+  text-align: right;
+}
+
+.back .back-recording {
+  position: absolute;
+  bottom: 0;
+}
