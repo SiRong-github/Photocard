@@ -1,7 +1,9 @@
 import Header from "./Header.jsx";
-import Photocard from "./Photocard.jsx";
 import Footer from "./Footer.jsx";
-import Button from "./Button.jsx";
+import Photocard from "./Photocard/Photocard.jsx";
+
+//useState for uploading info & shaking the photocard to reveal the photo?
+
 function App() {
   return (
     <>

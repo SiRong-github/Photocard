@@ -1,0 +1,25 @@
+.front,
+.back {
+  border: 0.1em solid rgb(237, 237, 237);
+  width: 8.8cm;
+  height: 10.7cm;
+  padding: 1em;
+  margin: 1em;
+  background-color: beige;
+}
+
+.front .frontPhoto {
+  width: 7.7cm;
+  height: 7.9cm;
+  display: block;
+  border: 0.1em solid rgb(237, 237, 237);
+  margin: 1em auto;
+}
+
+.back .backDate {
+  text-align: right;
+}
+
+.back .backRecording {
+  bottom: 0;
+}
